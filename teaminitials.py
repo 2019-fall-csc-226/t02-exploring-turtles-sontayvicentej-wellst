@@ -1,0 +1,63 @@
+import turtle
+
+wn = turtle.Screen()
+jhonny = turtle.Turtle()
+
+jhonny.speed(2)
+jhonny.penup()
+jhonny.setposition(-250,75)
+
+jhonny.pendown()
+jhonny.pensize(10)
+jhonny.forward(80)
+jhonny.backward(40)
+jhonny.right(90)
+jhonny.forward(120)
+
+jhonny.penup()
+jhonny.setposition(-130, 75)
+jhonny.pendown()
+
+jhonny.left(23.5)
+jhonny.forward(120)
+jhonny.left(90 + 45)
+jhonny.forward(60)
+jhonny.right(90 + 45)
+jhonny.fd(60)
+jhonny.left(90 + 45)
+jhonny.fd(120)
+
+jhonny.penup()
+jhonny.right(45 + 23.5)
+jhonny.forward(80)
+
+jhonny.pendown()
+jhonny.right(90)
+jhonny.fd(120)
+jhonny.right(90)
+jhonny.forward(60)
+jhonny.right(90)
+jhonny.fd(30)
+
+jhonny.back(30)
+jhonny.left(90)
+jhonny.back(60)
+jhonny.left(90)
+jhonny.back(120)
+jhonny.left(90)
+
+jhonny.penup()
+jhonny.forward(150)
+jhonny.pendown()
+jhonny.right(180)
+jhonny.fd(80)
+jhonny.left(90)
+jhonny.fd(60)
+jhonny.left(90)
+jhonny.fd(80)
+jhonny.right(90)
+jhonny.fd(60)
+jhonny.right(90)
+jhonny.forward(80)
+
+wn.mainloop()
